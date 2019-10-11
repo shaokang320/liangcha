@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/* 公用变量 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.section-a .h-title {
+  z-index: 3;
+  position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 690rpx;
+  height: 120rpx;
+  background: #ffffff;
+  border-bottom: 1px solid #EEEEEE;
+}
+.section-a .h-title text {
+    font-size: 30rpx;
+    font-weight: 500;
+    color: #0b0b0b;
+}
+.section-a .h-title .time {
+    margin-left: -40rpx;
+}
+.section-a .h-title image {
+    width: 36rpx;
+    height: 26rpx;
+}
+.section-c {
+  padding-top: 120rpx;
+}
+.section-c .title {
+    padding-top: 10rpx;
+    font-size: 29rpx;
+    font-weight: 500;
+    height: 80rpx;
+    line-height: 80rpx;
+}
+.section-c .list {
+    padding-bottom: 9vh;
+}
+.section-c .item {
+    height: 172rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #EEEEEE;
+}
+.section-c .item .pic {
+      width: 109rpx;
+      height: 109rpx;
+      margin-right: 30rpx;
+      overflow: hidden;
+      border-radius: 6rpx;
+}
+.section-c .item .pic image {
+        width: 109rpx;
+        height: 109rpx;
+}
+.section-c .item .detail {
+      width: 430rpx;
+      height: 90rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+}
+.section-c .item .detail .name {
+        font-size: 32rpx;
+        color: #0b0b0b;
+}
+.section-c .item .detail .desc {
+        font-size: 20rpx;
+        color: #9c9c9c;
+}
+.section-c .item .specification {
+      width: 120rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: end;
+      -webkit-align-items: flex-end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+}
+.section-c .item .specification view {
+        font-size: 28rpx;
+        font-weight: bold;
+        color: #ED5851;
+}
+.components-mask .time {
+  margin-top: 48rpx;
+  height: 130rpx;
+  background: white;
+  -webkit-box-shadow: 0px 3rpx 24rpx 0px rgba(4, 0, 0, 0.06);
+          box-shadow: 0px 3rpx 24rpx 0px rgba(4, 0, 0, 0.06);
+  border-radius: 10rpx;
+}
+.components-mask .time .common-title {
+    width: 660rpx;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 120rpx;
+    line-height: 120rpx;
+}
+.components-mask .time .common-title .t-l {
+      font-size: 36rpx;
+      font-weight: 500;
+      color: #484848;
+}
+.components-mask .time .common-title .t-r {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.components-mask .time .common-title .t-r .text {
+        font-size: 36rpx;
+        color: #484848;
+        font-weight: 500;
+}
+.components-mask .time .common-title .t-r image {
+        width: 40rpx;
+        height: 30rpx;
+        -webkit-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+                transform: rotate(-90deg);
+}
+.components-mask .btn {
+  margin: 124rpx auto 0;
+  width: 216rpx;
+  height: 77rpx;
+  font-size: 30rpx;
+  line-height: 77rpx;
+  background: #00a47c;
+  border-radius: 39rpx;
+}
+

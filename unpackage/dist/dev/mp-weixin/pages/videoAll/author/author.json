@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "创作者",
+  "usingComponents": {
+    "com-article": "/components/article"
+  }
+}

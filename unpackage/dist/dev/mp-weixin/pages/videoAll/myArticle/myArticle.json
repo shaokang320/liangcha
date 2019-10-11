@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我的美文",
+  "usingComponents": {
+    "com-article": "/components/article"
+  }
+}

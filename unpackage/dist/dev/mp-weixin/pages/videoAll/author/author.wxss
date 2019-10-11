@@ -1,0 +1,354 @@
+@charset "UTF-8";
+/* 公用变量 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.header {
+  height: 220rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #00A47C;
+  border-radius: 20rpx;
+}
+.header .box {
+    width: 600rpx;
+    height: 170rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.header .box .avar {
+      width: 130rpx;
+      height: 130rpx;
+      border-radius: 50%;
+}
+.header .box .userInfo {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      width: 300rpx;
+      height: 100rpx;
+      margin-left: 10rpx;
+}
+.header .box .userInfo text {
+        font-size: 24rpx;
+        color: #FFFFFF;
+}
+.header .box .userInfo .class {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+}
+.header .box .userInfo .class text {
+          font-size: 18rpx;
+}
+.header .box .membership {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      width: 150rpx;
+      height: 40rpx;
+      line-height: 40rpx;
+      background: #F7F7F7;
+      border-radius: 20rpx;
+      opacity: 0.83;
+}
+.header .box .membership image {
+        border-radius: 50%;
+}
+.header .box .membership image:first-child {
+          width: 38rpx;
+          height: 38rpx;
+}
+.header .box .membership image:last-child {
+          width: 22rpx;
+          height: 22rpx;
+          -webkit-transform: rotate(-90deg);
+              -ms-transform: rotate(-90deg);
+                  transform: rotate(-90deg);
+}
+.header .box .membership text {
+        font-size: 20rpx;
+        color: #5D5B5B;
+}
+.tl {
+  padding-top: 50rpx;
+  font-size: 16rpx;
+  color: #BDB8B8;
+}
+.common-title {
+  padding: 20rpx 0;
+  width: 660rpx;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.common-title .t-l {
+    font-size: 30rpx;
+    color: #484848;
+}
+.common-title .t-l.red {
+      font-size: 34rpx;
+      color: #DD524D;
+}
+.common-title .t-r {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.common-title .t-r .text {
+      font-size: 24rpx;
+      color: #6C6A6A;
+}
+.common-title .t-r image {
+      width: 30rpx;
+      height: 26rpx;
+      -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+}
+.line {
+  width: 100%;
+  height: 15rpx;
+}
+.navbar {
+  width: 100%;
+  background: #ffffff;
+  font-size: 26rpx;
+  border-bottom: 1px solid #EEEEEE;
+}
+.navbar .classify {
+    height: 90rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.navbar .classify .subnav {
+      width: 50%;
+      text-align: center;
+      -webkit-transition: font .5s;
+      -o-transition: font .5s;
+      transition: font .5s;
+}
+.navbar .classify .subnav.active {
+        font-size: 28rpx;
+        color: #00A47C;
+}
+.section-a .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30rpx 0;
+  border-bottom: 1px solid #EEEEEE;
+}
+.section-a .item .img {
+    position: relative;
+    width: 210rpx;
+    height: 119rpx;
+    margin-right: 18rpx;
+}
+.section-a .item .img image {
+      position: absolute;
+      width: 210rpx;
+      height: 119rpx;
+      border-radius: 6rpx;
+}
+.section-a .item .img .num {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 36rpx;
+      text-align: center;
+      line-height: 36rpx;
+      color: #a2a3a4;
+      font-size: 20rpx;
+      background: gainsboro;
+}
+.section-a .item .detail {
+    width: 422rpx;
+    height: 119rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.section-a .item .detail .d-a {
+      font-size: 22rpx;
+      color: #050f1a;
+}
+.section-a .item .detail .d-b {
+      font-size: 20rpx;
+      color: #8490A1;
+      margin-left: -8rpx;
+}
+.section-a .item .detail .d-c {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+}
+.section-a .item .detail .d-c text {
+        font-size: 20rpx;
+}
+.section-a .item .detail .d-c text:first-child {
+          color: #ED5851;
+}
+.section-a .item .detail .d-c text:last-child {
+          color: #8490A1;
+}
+.hint {
+  z-index: 33;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 690rpx;
+  height: 55rpx;
+  position: fixed;
+  bottom: 30rpx;
+  left: 30rpx;
+  background: #00a47c;
+  opacity: 0.75;
+  border-radius: 4rpx;
+}
+.hint text {
+    font-size: 24rpx;
+    color: #FFFFFF;
+    padding-left: 30rpx;
+}
+.hint image {
+    width: 50rpx;
+    height: 50rpx;
+    margin-left: 20rpx;
+    -webkit-animation: xuanzhuan 2s infinite;
+            animation: xuanzhuan 2s infinite;
+}
+@-webkit-keyframes xuanzhuan {
+0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}
+@keyframes xuanzhuan {
+0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}
+

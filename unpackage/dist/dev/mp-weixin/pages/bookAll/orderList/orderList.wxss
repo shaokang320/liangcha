@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* 公用变量 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.header {
+  position: fixed;
+  width: 100%;
+  height: 90rpx;
+  line-height: 70rpx;
+  background: #ffffff;
+  font-size: 26rpx;
+  color: #00A47C;
+  border-bottom: 1px solid #EEEEEE;
+}
+.section-a {
+  padding: 90rpx 0;
+}
+.section-a .sub {
+    border-bottom: 20rpx solid #EEEEEE;
+}
+.section-a .sub .title {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      height: 100rpx;
+      line-height: 100rpx;
+}
+.section-a .sub .title .t-l {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+.section-a .sub .title .t-l .text {
+          padding-left: 10rpx;
+          font-size: 28rpx;
+          font-weight: bold;
+          color: #484848;
+}
+.section-a .sub .title .t-l image {
+          width: 36rpx;
+          height: 36rpx;
+}
+.section-a .sub .title .t-r {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        font-size: 24rpx;
+        color: #9C9C9C;
+}
+.section-a .sub .title .t-r .text {
+          padding-left: 10rpx;
+}
+.section-a .sub .ul {
+      padding: 15rpx 0 50rpx 40rpx;
+}
+.section-a .sub .ul .li {
+        height: 120rpx;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+.section-a .sub .ul .li .pic {
+          width: 90rpx;
+          height: 90rpx;
+          margin-right: 20rpx;
+          overflow: hidden;
+}
+.section-a .sub .ul .li .pic image {
+            width: 90rpx;
+            height: 90rpx;
+}
+.section-a .sub .ul .li .detail {
+          width: 400rpx;
+          height: 70rpx;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+}
+.section-a .sub .ul .li .detail .name {
+            font-size: 26rpx;
+            color: #0b0b0b;
+}
+.section-a .sub .ul .li .detail .desc {
+            font-size: 18rpx;
+            color: #9c9c9c;
+}
+.section-a .sub .ul .li .specification {
+          width: 150rpx;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          font-size: 22rpx;
+          color: #9C9C9C;
+}
+.section-a .sub .ul .li .specification .money {
+            font-size: 24rpx;
+            font-weight: bold;
+            color: #EA3510;
+}
+

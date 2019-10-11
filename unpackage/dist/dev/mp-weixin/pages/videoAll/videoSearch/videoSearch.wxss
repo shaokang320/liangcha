@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* 公用变量 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 顶部搜索 */
+.search {
+  position: fixed;
+  width: 690rpx;
+  left: 30rpx;
+  padding: 20rpx 0;
+  overflow: hidden;
+  border-bottom: 1px solid #EEEEEE;
+  background: #fff;
+}
+.search .left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 60rpx;
+  border: 1px solid #000000;
+  border-radius: 30rpx;
+  overflow: hidden;
+}
+.search .left image {
+  width: 35rpx;
+  height: 35rpx;
+  margin: 13rpx 5rpx 10rpx 20rpx;
+}
+.search .left input {
+  width: 72%;
+  height: 60rpx;
+  color: #9b9b9b;
+  font-size: 24rpx;
+  line-height: 34rpx;
+}
+.search_btn {
+  width: 15%;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 24rpx;
+  color: #9b9b9b;
+  text-align: center;
+  border-left: 2rpx solid #ddd;
+}
+.common-title {
+  width: 660rpx;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.common-title .t-l {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.common-title .t-l .text {
+      font-size: 28rpx;
+      font-weight: 600;
+      color: #484848;
+}
+.common-title .t-r {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.common-title .t-r .text {
+      font-size: 24rpx;
+      color: #666666;
+}
+.common-title .t-r image {
+      width: 30rpx;
+      height: 26rpx;
+      -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+}
+.section-f {
+  padding-bottom: 50rpx;
+}
+.section-f .item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 26rpx;
+}
+.section-f .item .img {
+      position: relative;
+      width: 210rpx;
+      height: 119rpx;
+      margin-right: 18rpx;
+}
+.section-f .item .img image {
+        position: absolute;
+        width: 210rpx;
+        height: 119rpx;
+        border-radius: 6rpx;
+}
+.section-f .item .img .num {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 36rpx;
+        text-align: center;
+        line-height: 36rpx;
+        color: #a2a3a4;
+        font-size: 20rpx;
+        background: gainsboro;
+}
+.section-f .item .detail {
+      width: 422rpx;
+      height: 119rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+}
+.section-f .item .detail .d-a {
+        font-size: 22rpx;
+        color: #050f1a;
+}
+.section-f .item .detail .d-b {
+        font-size: 20rpx;
+        color: #8490A1;
+        margin-left: -8rpx;
+}
+.section-f .item .detail .d-c {
+        font-size: 20rpx;
+        color: #ED5851;
+}
+

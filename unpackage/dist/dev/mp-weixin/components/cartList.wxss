@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* 公用变量 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.components-cart .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 14rpx 50rpx;
+  background: #f5f5f5;
+  font-size: 28rpx;
+}
+.components-cart .title .t-l {
+    text-indent: 10rpx;
+    border-left: 4px solid #00a47c;
+}
+.components-cart .title .t-r {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.components-cart .title .t-r image {
+      width: 32rpx;
+      height: 34rpx;
+      margin-right: 5rpx;
+}
+.components-cart .list {
+  background: #fff;
+  min-height: 480rpx;
+  max-height: 600rpx;
+}
+.components-cart .list .item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 50rpx;
+    height: 120rpx;
+    border-bottom: 1px solid #f5f5f5;
+}
+.components-cart .list .item .item-l {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      width: 360rpx;
+      height: 80rpx;
+}
+.components-cart .list .item .item-l .name {
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 30rpx;
+        font-weight: 500;
+        color: #333333;
+}
+.components-cart .list .item .item-l .desc {
+        overflow: hidden;
+        white-space: nowrap;
+        width: 360rpx;
+        font-size: 22rpx;
+        color: #9c9c9c;
+}
+.components-cart .list .item .item-m {
+      width: 140rpx;
+      font-size: 30rpx;
+      font-weight: 500;
+      color: #DD524D;
+}
+.components-cart .list .item .item-r {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      width: 150rpx;
+}
+.components-cart .list .item .item-r .calc {
+        width: 38rpx;
+        height: 38rpx;
+        background: #00a47c;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 36rpx;
+        color: #ffffff;
+}
+.components-cart .list .item .item-r .num {
+        width: 74rpx;
+        text-align: center;
+}
+

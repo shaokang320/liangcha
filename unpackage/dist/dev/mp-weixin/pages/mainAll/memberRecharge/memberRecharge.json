@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "会员开通",
+  "usingComponents": {
+    "com-article": "/components/article"
+  }
+}

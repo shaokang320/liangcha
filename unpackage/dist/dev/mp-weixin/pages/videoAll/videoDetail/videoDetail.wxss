@@ -1,0 +1,460 @@
+@charset "UTF-8";
+/* 公用变量 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.header {
+  z-index: 666;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #EEEEEE;
+  background: #FFFFFF;
+}
+.header .cover {
+    position: relative;
+}
+.header .cover .banner {
+      width: 750rpx;
+      height: 424rpx;
+}
+.header .cover .play {
+      position: absolute;
+      width: 96rpx;
+      height: 96rpx;
+      top: 170rpx;
+      left: 325rpx;
+}
+.header .video {
+    width: 750rpx;
+    height: 424rpx;
+}
+.header .classify {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 20rpx;
+}
+.header .classify .subnav {
+      height: 70rpx;
+      font-weight: 600;
+      font-size: 26rpx;
+}
+.header .classify .subnav.active {
+        color: #00A47C;
+        border-bottom: 3px solid #00A47C;
+}
+.section-a {
+  padding: 524rpx 0 100rpx;
+}
+.section-a .list1 .sec1 {
+    height: 150rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #EEEEEE;
+}
+.section-a .list1 .sec1 .box {
+      height: 90rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+}
+.section-a .list1 .sec1 .box .name {
+        font-family: Source Han Sans CN;
+        font-size: 30rpx;
+        color: #333333;
+}
+.section-a .list1 .sec1 .box .other {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+        -webkit-align-items: flex-end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+}
+.section-a .list1 .sec1 .box .other .other01 {
+          margin-bottom: -2rpx;
+          font-weight: bold;
+          font-size: 26rpx;
+          color: #ED5851;
+}
+.section-a .list1 .sec1 .box .other .other02 {
+          padding: 0 20rpx;
+          font-size: 20rpx;
+          color: #666666;
+}
+.section-a .list1 .sec1 .box .other .other03 {
+          font-size: 20rpx;
+          color: #666666;
+}
+.section-a .list1 .sec2 {
+    height: 250rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #EEEEEE;
+}
+.section-a .list1 .sec2 .box {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      height: 250rpx;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+}
+.section-a .list1 .sec2 .box .biao {
+        heigth: 100rpx;
+        line-height: 100rpx;
+        font-family: Source Han Sans CN;
+        font-size: 30rpx;
+        color: #333333;
+}
+.section-a .list1 .sec2 .box .other {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+.section-a .list1 .sec2 .box .other image {
+          width: 110rpx;
+          height: 110rpx;
+          border-radius: 55rpx;
+}
+.section-a .list1 .sec2 .box .other .info {
+          padding-left: 20rpx;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          width: 500rpx;
+          height: 100rpx;
+}
+.section-a .list1 .sec2 .box .other .info text {
+            font-size: 24rpx;
+            color: #333333;
+}
+.section-a .list1 .sec2 .box .other .info .context {
+            font-size: 20rpx;
+            color: #666666;
+            line-height: 30rpx;
+}
+.section-a .list1 .sec3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.section-a .list1 .sec3 .box {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+}
+.section-a .list1 .sec3 .box .biao {
+        heigth: 100rpx;
+        line-height: 100rpx;
+        font-family: Source Han Sans CN;
+        font-size: 30rpx;
+        color: #333333;
+}
+.section-a .list1 .sec3 .box .other {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+.section-a .list1 .sec3 .box .other image {
+          width: 110rpx;
+          height: 110rpx;
+          border-radius: 55rpx;
+}
+.section-a .list1 .sec3 .box .other .info {
+          padding-left: 20rpx;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          width: 600rpx;
+}
+.section-a .list1 .sec3 .box .other .info text {
+            font-size: 24rpx;
+            color: #333333;
+}
+.section-a .list1 .sec3 .box .other .info .context {
+            font-size: 24rpx;
+            color: #666666;
+            line-height: 36rpx;
+}
+.section-a .list2 .title {
+    border-bottom: 1px solid #EEEEEE;
+}
+.section-a .list2 .title .box {
+      height: 100rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.section-a .list2 .title .box image {
+        width: 42rpx;
+        height: 42rpx;
+}
+.section-a .list2 .title .box .text1 {
+        padding-left: 6rpx;
+        font-size: 28rpx;
+        color: #333333;
+}
+.section-a .list2 .title .box .text2 {
+        font-size: 28rpx;
+        color: #959595;
+}
+.section-a .list2 .ul .li {
+    border-bottom: 1px solid #EEEEEE;
+}
+.section-a .list2 .ul .li.video-active {
+      background: #F8F8F8;
+}
+.section-a .list2 .ul .li .box {
+      height: 100rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+}
+.section-a .list2 .ul .li .box .box-l .text1 {
+        font-size: 28rpx;
+        color: #333333;
+}
+.section-a .list2 .ul .li .box .box-r {
+        width: 105rpx;
+        height: 40rpx;
+        line-height: 40rpx;
+        background: #41ACFF;
+        opacity: 0.5;
+        border-radius: 10rpx;
+        font-size: 22rpx;
+        color: #FFFFFF;
+        text-align: center;
+}
+.section-a .list2 .ul .li .box .lock {
+        width: 34rpx;
+        height: 34rpx;
+        margin-right: 32rpx;
+}
+.section-a .list3 .item {
+    padding: 20rpx 0;
+    border-bottom: 1px solid #EEEEEE;
+}
+.section-a .list3 .item .item-t {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.section-a .list3 .item .item-t .userInfo {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 50%;
+}
+.section-a .list3 .item .item-t .userInfo image {
+          width: 50rpx;
+          height: 50rpx;
+          border-radius: 50%;
+}
+.section-a .list3 .item .item-t .userInfo .name {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-justify-content: space-around;
+              -ms-flex-pack: distribute;
+                  justify-content: space-around;
+          margin-left: 20rpx;
+          height: 50rpx;
+}
+.section-a .list3 .item .item-t .userInfo .name text {
+            display: block;
+}
+.section-a .list3 .item .item-t .userInfo .name text:first-child {
+              font-size: 22rpx;
+              color: #414141;
+}
+.section-a .list3 .item .item-t .userInfo .name text:last-child {
+              font-size: 16rpx;
+              color: #8E8E8E;
+}
+.section-a .list3 .item .item-t .focus {
+        width: 78rpx;
+        font-size: 20rpx;
+        height: 36rpx;
+        line-height: 36rpx;
+}
+.section-a .list3 .item .item-b {
+      padding: 16rpx 10rpx;
+      margin: 0 auto;
+      font-size: 22rpx;
+}
+.section-a .list3 .item .item-b .context {
+        display: inline;
+        color: #999999;
+}
+.section-a .list3 .item .item-b .blue {
+        display: inline;
+        color: #00A47C;
+}
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #ffffff;
+  border-top: 1px solid #EEEEEE;
+}
+.footer .box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 90rpx;
+}
+.footer .box .box01 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.footer .box .box01 image:first-child {
+        width: 46rpx;
+        height: 46rpx;
+}
+.footer .box .box01 image:last-child {
+        width: 40rpx;
+        height: 40rpx;
+        margin-left: 14rpx;
+}
+.footer .box .btn {
+      width: 210rpx;
+      height: 66rpx;
+      border-radius: 33rpx;
+      font-size: 28rpx;
+}
+

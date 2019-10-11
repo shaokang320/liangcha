@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mask": "/components/mask"
+  },
+  "component": true
+}

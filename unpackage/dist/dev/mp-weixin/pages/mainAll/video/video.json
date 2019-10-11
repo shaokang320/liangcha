@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "检测",
+  "usingComponents": {
+    "com-article": "/components/article"
+  }
+}

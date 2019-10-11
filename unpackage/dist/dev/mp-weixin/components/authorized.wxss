@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* 公用变量 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.components-authorized .content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.components-authorized .content .popup {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    overflow: hidden;
+    width: 70vw;
+    height: 70vw;
+    background: #FFFFFF;
+    border-radius: 30rpx;
+    -webkit-box-shadow: 0px 3px 24px 0px rgba(4, 0, 0, 0.06);
+            box-shadow: 0px 3px 24px 0px rgba(4, 0, 0, 0.06);
+    color: #00A47C;
+}
+.components-authorized .content .popup image {
+      width: 200rpx;
+      height: 200rpx;
+}
+.components-authorized .content .popup button {
+      width: 400rpx;
+      height: 80rpx;
+      line-height: 80rpx;
+      font-size: 34rpx;
+      font-weight: 500;
+      border-radius: 50rpx;
+      border: 1px solid #00A47C;
+      background: #ffffff;
+      color: #00A47C;
+}
+.components-authorized .content .popup button.button-hover {
+      opacity: 0.7;
+}
+

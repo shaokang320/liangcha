@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* 公用变量 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.header {
+  position: fixed;
+  width: 100%;
+  background: #ffffff;
+  font-size: 26rpx;
+  border-bottom: 4px solid #EEEEEE;
+}
+.header .classify {
+    height: 90rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.header .classify .subnav {
+      width: 200rpx;
+      -webkit-transition: font .5s;
+      -o-transition: font .5s;
+      transition: font .5s;
+}
+.header .classify .subnav.active {
+        font-size: 28rpx;
+        color: #00A47C;
+}
+.section-a {
+  padding-top: 90rpx;
+}
+.section-a .item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30rpx 0;
+    border-bottom: 1px solid #EEEEEE;
+}
+.section-a .item .img {
+      position: relative;
+      width: 210rpx;
+      height: 119rpx;
+      margin-right: 18rpx;
+}
+.section-a .item .img image {
+        position: absolute;
+        width: 210rpx;
+        height: 119rpx;
+        border-radius: 6rpx;
+}
+.section-a .item .img .num {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 36rpx;
+        text-align: center;
+        line-height: 36rpx;
+        color: #a2a3a4;
+        font-size: 20rpx;
+        background: gainsboro;
+}
+.section-a .item .detail {
+      width: 422rpx;
+      height: 119rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+}
+.section-a .item .detail .d-a {
+        font-size: 22rpx;
+        color: #050f1a;
+}
+.section-a .item .detail .d-b {
+        font-size: 20rpx;
+        color: #8490A1;
+        margin-left: -8rpx;
+}
+.section-a .item .detail .d-c {
+        font-size: 20rpx;
+        color: #ED5851;
+}
+

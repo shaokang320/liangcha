@@ -1,0 +1,1 @@
+<view class="content"><view class="section-a"><image src="{{staticURL+'mainAll/finish.png'}}" mode="widthFix"></image><view class="msg">提现申请已提交，等待商家审核</view><text>2019-09-04 15:11:28</text></view><button class="btn">完成</button></view>

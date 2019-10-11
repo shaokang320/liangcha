@@ -1,0 +1,294 @@
+{
+	"pages": [{
+		"path": "pages/mainAll/index/index",
+		"style": {
+			"navigationBarTitleText": "首页"
+			// "enablePullDownRefresh": true
+			//"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/mainAll/video/video",
+		"style": {
+			"navigationBarTitleText": "检测"
+		}
+	}, {
+		"path": "pages/mainAll/my/my",
+		"style": {
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/mainAll/shopSelect/shopSelect",
+		"style": {
+			"navigationBarTitleText": "选择餐厅"
+		}
+	}, {
+		"path": "pages/mainAll/addressList/addressList",
+		"style": {
+			"navigationBarTitleText": "地址管理"
+		}
+	}, {
+		"path": "pages/mainAll/addressAdd/addressAdd",
+		"style": {
+			"navigationBarTitleText": "添加地址"
+		}
+	}, {
+		"path": "pages/mainAll/addressEdit/addressEdit",
+		"style": {
+			"navigationBarTitleText": "地址修改"
+		}
+	}, {
+		"path": "pages/mainAll/myCommission/myCommission",
+		"style": {
+			"navigationBarTitleText": "佣金"
+		}
+	}, {
+		"path": "pages/mainAll/myBalance/myBalance",
+		"style": {
+			"navigationBarTitleText": "我的钱包"
+		}
+	}, {
+		"path": "pages/mainAll/member/member",
+		"style": {
+			"navigationBarTitleText": "会员中心"
+		}
+	}, {
+		"path": "pages/mainAll/recharge/recharge",
+		"style": {
+			"navigationBarTitleText": "充值"
+		}
+	}, {
+		"path": "pages/mainAll/bankCard/bankCard",
+		"style": {
+			"navigationBarTitleText": "银行卡"
+		}
+	}, {
+		"path": "pages/mainAll/addBankCard/addBankCard",
+		"style": {
+			"navigationBarTitleText": "添加银行卡"
+		}
+	}, {
+		"path": "pages/mainAll/withdraw/withdraw",
+		"style": {
+			"navigationBarTitleText": "提现"
+		}
+	}, {
+		"path": "pages/mainAll/memberRecharge/memberRecharge",
+		"style": {
+			"navigationBarTitleText": "会员开通"
+		}
+	}, {
+		"path": "pages/mainAll/withdrawSuccess/withdrawSuccess",
+		"style": {
+			"navigationBarTitleText": "等待审核"
+		}
+	}, {
+		"path": "pages/mainAll/job/job",
+		"style": {
+			"navigationBarTitleText": "招聘"
+		}
+	}, {
+		"path": "pages/mainAll/myJob/myJob",
+		"style": {
+			"navigationBarTitleText": "我的求职"
+		}
+	}, {
+		"path": "pages/mainAll/addBio/addBio",
+		"style": {
+			"navigationBarTitleText": "简历填写"
+		}
+	}, {
+		"path": "pages/mainAll/jobDetail/jobDetail",
+		"style": {
+			"navigationBarTitleText": "职位描述"
+		}
+	}],
+	"subPackages": [{
+		"root": "pages/scanAll",
+		"pages": [{
+			"path": "scan/scan",
+			"style": {
+				"navigationBarTitleText": "自主点餐"
+			}
+		}, {
+			"path": "classify/classify",
+			"style": {
+				"navigationBarTitleText": "点餐"
+			}
+		}, {
+			"path": "submitOrder/submitOrder",
+			"style": {
+				"navigationBarTitleText": "提交订单"
+			}
+		}, {
+			"path": "goodsDetail/goodsDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		}, {
+			"path": "subEvaluate/subEvaluate",
+			"style": {
+				"navigationBarTitleText": "订单评价"
+			}
+		}, {
+			"path": "paySuccess/paySuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		}, {
+			"path": "orderList/orderList",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		}, {
+			"path": "orderDetail/orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}]
+	}, {
+		"root": "pages/bookAll",
+		"pages": [{
+			"path": "book/book",
+			"style": {
+				"navigationBarTitleText": "选择餐桌"
+			}
+		}, {
+			"path": "submitOrder/submitOrder",
+			"style": {
+				"navigationBarTitleText": "提交订单"
+			}
+		}, {
+			"path": "paySuccess/paySuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		}, {
+			"path": "orderList/orderList",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		}, {
+			"path": "takeNumber/takeNumber",
+			"style": {
+				"navigationBarTitleText": "取号点餐"
+			}
+		}, {
+			"path": "takeSuccess/takeSuccess",
+			"style": {
+				"navigationBarTitleText": "已出号"
+			}
+		}]
+	}, {
+		"root": "pages/cookAll",
+		"pages": [{
+			"path": "cook/cook",
+			"style": {
+				"navigationBarTitleText": "厨师上门"
+			}
+		}, {
+			"path": "cookDetail/cookDetail",
+			"style": {
+				"navigationBarTitleText": "套餐详情"
+			}
+		}, {
+			"path": "submitOrder/submitOrder",
+			"style": {
+				"navigationBarTitleText": "提交订单"
+			}
+		}, {
+			"path": "orderList/orderList",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		}, {
+			"path": "orderWaiting/orderWaiting",
+			"style": {
+				"navigationBarTitleText": "预约详情"
+			}
+		}]
+	}, {
+		"root": "pages/videoAll",
+		"pages": [{
+			"path": "myVideo/myVideo",
+			"style": {
+				"navigationBarTitleText": "我的美厨"
+			}
+		}, {
+			"path": "myArticle/myArticle",
+			"style": {
+				"navigationBarTitleText": "我的美文"
+			}
+		}, {
+			"path": "articleList/articleList",
+			"style": {
+				"navigationBarTitleText": "美文天地"
+			}
+		}, {
+			"path": "articleDetail/articleDetail",
+			"style": {
+				"navigationBarTitleText": "美文"
+			}
+		}, {
+			"path": "videoList/videoList",
+			"style": {}
+		}, {
+			"path": "videoDetail/videoDetail",
+			"style": {
+				"navigationBarTitleText": "课程介绍"
+			}
+		}, {
+			"path": "videoSearch/videoSearch",
+			"style": {
+				"navigationBarTitleText": "课程搜索"
+			}
+		}, {
+			"path": "apply/apply",
+			"style": {
+				"navigationBarTitleText": "创作者申请"
+			}
+		}, {
+			"path": "author/author",
+			"style": {
+				"navigationBarTitleText": "创作者"
+			}
+		}, {
+			"path": "auditResult/auditResult",
+			"style": {
+				"navigationBarTitleText": "审核进度"
+			}
+		}]
+	}],
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "点餐",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#1d1d1d",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/mainAll/index/index",
+			"iconPath": "static/icons/index-off.png",
+			"selectedIconPath": "static/icons/index-on.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/mainAll/video/video",
+			"iconPath": "static/icons/video-off.png",
+			"selectedIconPath": "static/icons/video-on.png",
+			"text": "检测"
+		}, {
+			"pagePath": "pages/mainAll/my/my",
+			"iconPath": "static/icons/my-off.png",
+			"selectedIconPath": "static/icons/my-on.png",
+			"text": "我的"
+		}]
+	}
+}

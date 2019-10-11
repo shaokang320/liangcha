@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "com-article": "/components/article",
+    "com-authorized": "/components/authorized"
+  }
+}

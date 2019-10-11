@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择餐桌",
+  "usingComponents": {
+    "mask": "/components/mask",
+    "uni-calendar": "/components/uni-calendar/uni-calendar"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "取号点餐",
+  "usingComponents": {
+    "mask": "/components/mask"
+  }
+}

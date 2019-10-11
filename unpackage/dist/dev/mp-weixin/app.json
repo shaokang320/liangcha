@@ -1,0 +1,109 @@
+{
+  "pages": [
+    "pages/mainAll/index/index",
+    "pages/mainAll/video/video",
+    "pages/mainAll/my/my",
+    "pages/mainAll/shopSelect/shopSelect",
+    "pages/mainAll/addressList/addressList",
+    "pages/mainAll/addressAdd/addressAdd",
+    "pages/mainAll/addressEdit/addressEdit",
+    "pages/mainAll/myCommission/myCommission",
+    "pages/mainAll/myBalance/myBalance",
+    "pages/mainAll/member/member",
+    "pages/mainAll/recharge/recharge",
+    "pages/mainAll/bankCard/bankCard",
+    "pages/mainAll/addBankCard/addBankCard",
+    "pages/mainAll/withdraw/withdraw",
+    "pages/mainAll/memberRecharge/memberRecharge",
+    "pages/mainAll/withdrawSuccess/withdrawSuccess",
+    "pages/mainAll/job/job",
+    "pages/mainAll/myJob/myJob",
+    "pages/mainAll/addBio/addBio",
+    "pages/mainAll/jobDetail/jobDetail"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/scanAll",
+      "pages": [
+        "scan/scan",
+        "classify/classify",
+        "submitOrder/submitOrder",
+        "goodsDetail/goodsDetail",
+        "subEvaluate/subEvaluate",
+        "paySuccess/paySuccess",
+        "orderList/orderList",
+        "orderDetail/orderDetail"
+      ]
+    },
+    {
+      "root": "pages/bookAll",
+      "pages": [
+        "book/book",
+        "submitOrder/submitOrder",
+        "paySuccess/paySuccess",
+        "orderList/orderList",
+        "takeNumber/takeNumber",
+        "takeSuccess/takeSuccess"
+      ]
+    },
+    {
+      "root": "pages/cookAll",
+      "pages": [
+        "cook/cook",
+        "cookDetail/cookDetail",
+        "submitOrder/submitOrder",
+        "orderList/orderList",
+        "orderWaiting/orderWaiting"
+      ]
+    },
+    {
+      "root": "pages/videoAll",
+      "pages": [
+        "myVideo/myVideo",
+        "myArticle/myArticle",
+        "articleList/articleList",
+        "articleDetail/articleDetail",
+        "videoList/videoList",
+        "videoDetail/videoDetail",
+        "videoSearch/videoSearch",
+        "apply/apply",
+        "author/author",
+        "auditResult/auditResult"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "点餐",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#1d1d1d",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/mainAll/index/index",
+        "iconPath": "static/icons/index-off.png",
+        "selectedIconPath": "static/icons/index-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mainAll/video/video",
+        "iconPath": "static/icons/video-off.png",
+        "selectedIconPath": "static/icons/video-on.png",
+        "text": "检测"
+      },
+      {
+        "pagePath": "pages/mainAll/my/my",
+        "iconPath": "static/icons/my-off.png",
+        "selectedIconPath": "static/icons/my-on.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

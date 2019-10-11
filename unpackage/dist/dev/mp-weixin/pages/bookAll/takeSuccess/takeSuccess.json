@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "已出号",
+  "usingComponents": {
+    "mask": "/components/mask"
+  }
+}

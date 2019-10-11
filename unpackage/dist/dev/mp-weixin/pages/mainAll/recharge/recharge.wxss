@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* 公用变量 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.tl {
+  padding: 60rpx 0 20rpx 0;
+  font-size: 24rpx;
+  color: #333333;
+}
+.common-title {
+  padding: 30rpx 0;
+  width: 660rpx;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.common-title .t-l.red {
+    font-size: 40rpx;
+    font-weight: bold;
+    color: #333333;
+}
+.common-title .t-r {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.common-title .t-r input {
+      font-size: 30rpx;
+      text-align: right;
+      color: #6C6A6A;
+}
+.line {
+  width: 100%;
+  height: 15rpx;
+}
+.section-c .type {
+  height: 120rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #EEEEEE;
+}
+.section-c .type .pic {
+    width: 70rpx;
+    height: 70rpx;
+    margin-right: 20rpx;
+    overflow: hidden;
+    border-radius: 35rpx;
+}
+.section-c .type .pic image {
+      width: 70rpx;
+      height: 70rpx;
+}
+.section-c .type .detail {
+    width: 490rpx;
+    height: 60rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.section-c .type .detail .name {
+      font-size: 20rpx;
+      color: #555555;
+}
+.section-c .type .detail .desc {
+      font-size: 18rpx;
+      color: #9c9c9c;
+}
+.section-c .type .yes {
+    width: 36rpx;
+    height: 35rpx;
+}
+.btn {
+  margin: 230rpx auto 0;
+}
+

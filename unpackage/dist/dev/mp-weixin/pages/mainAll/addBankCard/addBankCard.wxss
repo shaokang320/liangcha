@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* 公用变量 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.header {
+  height: 120rpx;
+  padding-left: 30rpx;
+  color: #BABABA;
+  font-size: 26rpx;
+  line-height: 120rpx;
+  background: #F5F5F5;
+}
+.section-a {
+  border-bottom: 1px solid #EEEEEE;
+}
+.section-a .only {
+    height: 120rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #EEEEEE;
+}
+.section-a .only .only-l {
+      font-size: 32rpx;
+      font-weight: 500;
+      color: #333333;
+}
+.section-a .only .only-r {
+      width: 500rpx;
+      font-size: 28rpx;
+      font-weight: 500;
+      color: #BABABA;
+}
+.btn {
+  margin: 80rpx auto 0;
+}
+

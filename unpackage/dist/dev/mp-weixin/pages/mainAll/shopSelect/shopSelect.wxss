@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* 公用变量 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.section-a .title {
+  font-size: 29rpx;
+  font-weight: 500;
+  line-height: 71rpx;
+}
+.section-a .list .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 172rpx;
+  margin-bottom: 26rpx;
+  background: white;
+  -webkit-box-shadow: 0px 3rpx 24rpx 0rpx rgba(4, 0, 0, 0.06);
+          box-shadow: 0px 3rpx 24rpx 0rpx rgba(4, 0, 0, 0.06);
+  border-radius: 10rpx;
+}
+.section-a .list .item .logo {
+    width: 128rpx;
+    height: 129rpx;
+    margin: 0 15rpx;
+    border-radius: 10rpx;
+}
+.section-a .list .item .detail {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 380rpx;
+    height: 129rpx;
+    margin: 0 10rpx;
+}
+.section-a .list .item .detail .top text {
+      display: block;
+}
+.section-a .list .item .detail .top text:first-child {
+        font-size: 31rpx;
+        font-weight: 500;
+        color: #0b0b0b;
+}
+.section-a .list .item .detail .top text:last-child {
+        font-size: 22rpx;
+        color: #999999;
+}
+.section-a .list .item .detail .distance {
+      font-size: 22rpx;
+      color: #999999;
+}
+.section-a .list .item .select {
+    width: 34rpx;
+    height: 34rpx;
+    margin-right: 10rpx;
+}
+.section-a .list .item .select image {
+      width: 100%;
+      height: 100%;
+}
+

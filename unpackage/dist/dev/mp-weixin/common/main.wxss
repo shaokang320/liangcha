@@ -1,0 +1,83 @@
+
+page {
+	height: 100%;
+	width: 100%;
+	font-size: 28rpx;
+	color: rgba(72, 72, 72, 1);
+}
+text {
+	display: inline-block;
+}
+.text1 {
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.text2 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.none {
+	display: none;
+}
+.c690 {
+	width: 690rpx;
+	margin: 0 auto;
+}
+.c660 {
+	width: 660rpx;
+	margin: 0 auto;
+}
+.c630 {
+	width: 630rpx;
+	margin: 0 auto;
+}
+.arrow {
+	display: inline-block;
+	font-size: 28rpx;
+	color: #EEEEEE;
+}
+.btn {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #00A47C;
+}
+.btn.button-hover {
+	opacity: 0.7;
+}
+.line {
+	background: #EEEEEE;
+}
+view,
+scroll-view,
+swiper,
+swiper-item,
+cover-view,
+cover-image,
+icon,
+text,
+rich-text,
+progress,
+button,
+checkbox,
+form,
+input,
+label,
+radio,
+slider,
+switch,
+textarea,
+navigator,
+audio,
+camera,
+image,
+video {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+

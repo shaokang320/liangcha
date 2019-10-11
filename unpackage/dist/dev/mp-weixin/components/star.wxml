@@ -1,0 +1,1 @@
+<view class="components-star"><block wx:for="{{startMax}}" wx:for-item="item" wx:for-index="__i0__" wx:key="*this"><image class="star" style="{{'width:'+(halfWidth)+';'+('height:'+(halfWidth)+';')}}" src="{{item+1<=value?startURL:defaultURL}}" data-event-opts="{{[['tap',[['changeStar',[item+1]]]]]}}" bindtap="__e"></image></block></view>

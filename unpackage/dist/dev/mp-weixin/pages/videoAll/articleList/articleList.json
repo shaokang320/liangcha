@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "美文天地",
+  "usingComponents": {
+    "com-article": "/components/article"
+  }
+}

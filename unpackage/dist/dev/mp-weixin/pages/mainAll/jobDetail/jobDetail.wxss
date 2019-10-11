@@ -1,0 +1,258 @@
+@charset "UTF-8";
+/* 公用变量 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.line {
+  width: 100%;
+  height: 15rpx;
+}
+.section-a {
+  padding-bottom: 180rpx;
+}
+.section-a .sec3 .box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.section-a .sec3 .box .biao {
+      height: 90rpx;
+      line-height: 90rpx;
+      font-family: Source Han Sans CN;
+      font-size: 30rpx;
+      font-weight: 600;
+      color: #666;
+}
+.section-a .sec3 .box .other {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.section-a .sec3 .box .other image {
+        width: 110rpx;
+        height: 110rpx;
+        border-radius: 55rpx;
+}
+.section-a .sec3 .box .other .info {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 600rpx;
+}
+.section-a .sec3 .box .other .info .context {
+          font-size: 24rpx;
+          color: #666666;
+          line-height: 36rpx;
+}
+.section-c {
+  margin-top: 10rpx;
+  background: white;
+  -webkit-box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+}
+.section-c .item {
+    height: 160rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+}
+.section-c .item .detail {
+      padding-left: 10rpx;
+      height: 100rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+}
+.section-c .item .detail .name {
+        font-size: 32rpx;
+        color: #333333;
+}
+.section-c .item .detail .desc {
+        font-size: 24rpx;
+        color: #999999;
+}
+.section-c .item .detail .money {
+        padding: 10rpx 20rpx;
+        font-weight: bold;
+        font-size: 30rpx;
+        color: #FE3701;
+}
+.section-c .add {
+    height: 160rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.section-c .add .pic {
+      margin-right: 20rpx;
+      overflow: hidden;
+}
+.section-c .add .pic image {
+        width: 92rpx;
+        height: 92rpx;
+        border-radius: 10rpx;
+}
+.section-c .add .detail {
+      width: 430rpx;
+      height: 70rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+}
+.section-c .add .detail .name {
+        font-size: 24rpx;
+        color: #333333;
+}
+.section-c .add .detail .desc {
+        font-size: 20rpx;
+        color: #9c9c9c;
+}
+.section-d .add {
+  margin-top: 30rpx;
+  padding: 40rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+.section-d .add .pic {
+    margin-right: 20rpx;
+    overflow: hidden;
+    border-radius: 10rpx;
+    -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start;
+}
+.section-d .add .pic image {
+      width: 36rpx;
+}
+.section-d .add .detail {
+    width: 430rpx;
+    height: 70rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.section-d .add .detail .name {
+      font-weight: 600;
+      font-size: 28rpx;
+      color: #333333;
+}
+.section-d .add .detail .desc {
+      padding-top: 6rpx;
+      font-size: 24rpx;
+      color: #666666;
+}
+.section-d .add .specification {
+    width: 160rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+.section-d .add .specification image {
+      width: 30rpx;
+      height: 26rpx;
+      -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  padding: 20rpx 0;
+  width: 100%;
+  background: #FFFFFF;
+}
+.btn {
+  border-radius: 48rpx;
+  margin: 0 auto;
+}
+

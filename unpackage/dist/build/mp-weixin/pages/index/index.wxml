@@ -1,0 +1,1 @@
+<view class="content"><view>{{'方法'+count10+''}}</view><view>{{'属性'+count20+''}}</view><view class="change"><button type="primary" data-event-opts="{{[['tap',[['addAction',[1]]]]]}}" bindtap="__e">dispatch-action增加</button><button type="primary" data-event-opts="{{[['tap',[['ReduceMutations',[99]]]]]}}" bindtap="__e">mutations减少</button></view></view>
