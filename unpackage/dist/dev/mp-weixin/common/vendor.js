@@ -733,7 +733,7 @@ function initData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -1605,9 +1605,9 @@ function normalizeComponent (
 /***/ }),
 
 /***/ 15:
-/*!************************************************!*\
-  !*** C:/Users/86185/Desktop/凉茶/store/index.js ***!
-  \************************************************/
+/*!******************************************************!*\
+  !*** C:/Users/86185/Desktop/liangcha/store/index.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2672,9 +2672,9 @@ var index_esm = {
 /***/ }),
 
 /***/ 17:
-/*!*******************************************************!*\
-  !*** C:/Users/86185/Desktop/凉茶/common/utils/utils.js ***!
-  \*******************************************************/
+/*!*************************************************************!*\
+  !*** C:/Users/86185/Desktop/liangcha/common/utils/utils.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2769,9 +2769,9 @@ utils;exports.default = _default;
 /***/ }),
 
 /***/ 18:
-/*!********************************************************!*\
-  !*** C:/Users/86185/Desktop/凉茶/common/utils/config.js ***!
-  \********************************************************/
+/*!**************************************************************!*\
+  !*** C:/Users/86185/Desktop/liangcha/common/utils/config.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2784,9 +2784,9 @@ exports.requestURL = requestURL;
 /***/ }),
 
 /***/ 195:
-/*!*******************************************************!*\
-  !*** C:/Users/86185/Desktop/凉茶/common/api/scanAll.js ***!
-  \*******************************************************/
+/*!*************************************************************!*\
+  !*** C:/Users/86185/Desktop/liangcha/common/api/scanAll.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8284,7 +8284,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -8305,14 +8305,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -8388,7 +8388,7 @@ var patch = function(oldVnode, vnode) {
     });
     var diffData = diff(data, mpData);
     if (Object.keys(diffData).length) {
-      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
           ']差量更新',
           JSON.stringify(diffData));
@@ -8766,9 +8766,9 @@ internalMixin(Vue);
 /***/ }),
 
 /***/ 25:
-/*!*******************************************************!*\
-  !*** C:/Users/86185/Desktop/凉茶/common/api/mainAll.js ***!
-  \*******************************************************/
+/*!*************************************************************!*\
+  !*** C:/Users/86185/Desktop/liangcha/common/api/mainAll.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8792,9 +8792,9 @@ function my(data) {
 /***/ }),
 
 /***/ 252:
-/*!************************************************************!*\
-  !*** C:/Users/86185/Desktop/凉茶/pages/bookAll/book/data.js ***!
-  \************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Users/86185/Desktop/liangcha/pages/bookAll/book/data.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9109,9 +9109,9 @@ mock;exports.default = _default;
 /***/ }),
 
 /***/ 26:
-/*!*********************************************************!*\
-  !*** C:/Users/86185/Desktop/凉茶/common/utils/request.js ***!
-  \*********************************************************/
+/*!***************************************************************!*\
+  !*** C:/Users/86185/Desktop/liangcha/common/utils/request.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9192,9 +9192,9 @@ module.exports = g;
 /***/ }),
 
 /***/ 4:
-/*!********************************************!*\
-  !*** C:/Users/86185/Desktop/凉茶/pages.json ***!
-  \********************************************/
+/*!**************************************************!*\
+  !*** C:/Users/86185/Desktop/liangcha/pages.json ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9996,9 +9996,9 @@ if (hadRuntime) {
 /***/ }),
 
 /***/ 430:
-/*!*****************************************************!*\
-  !*** C:/Users/86185/Desktop/凉茶/common/api/login.js ***!
-  \*****************************************************/
+/*!***********************************************************!*\
+  !*** C:/Users/86185/Desktop/liangcha/common/api/login.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10012,9 +10012,9 @@ function apiWeiXinLogin(data) {//用户登录
 /***/ }),
 
 /***/ 459:
-/*!*********************************************************************!*\
-  !*** C:/Users/86185/Desktop/凉茶/components/uni-calendar/calendar.js ***!
-  \*********************************************************************/
+/*!***************************************************************************!*\
+  !*** C:/Users/86185/Desktop/liangcha/components/uni-calendar/calendar.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11464,21 +11464,21 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 /***/ }),
 
 /***/ 7:
-/*!*************************************************************!*\
-  !*** C:/Users/86185/Desktop/凉茶/pages.json?{"type":"style"} ***!
-  \*************************************************************/
+/*!*******************************************************************!*\
+  !*** C:/Users/86185/Desktop/liangcha/pages.json?{"type":"style"} ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/mainAll/index/index": { "navigationBarTitleText": "首页", "usingComponents": { "com-article": "/components/article", "com-authorized": "/components/authorized" } }, "pages/mainAll/video/video": { "navigationBarTitleText": "检测", "usingComponents": { "com-article": "/components/article" } }, "pages/mainAll/my/my": { "navigationBarTitleText": "我的", "usingComponents": {} }, "pages/mainAll/shopSelect/shopSelect": { "navigationBarTitleText": "选择餐厅", "usingComponents": {} }, "pages/mainAll/addressList/addressList": { "navigationBarTitleText": "地址管理", "usingComponents": {} }, "pages/mainAll/addressAdd/addressAdd": { "navigationBarTitleText": "添加地址", "usingComponents": {} }, "pages/mainAll/addressEdit/addressEdit": { "navigationBarTitleText": "地址修改", "usingComponents": {} }, "pages/mainAll/myCommission/myCommission": { "navigationBarTitleText": "佣金", "usingComponents": {} }, "pages/mainAll/myBalance/myBalance": { "navigationBarTitleText": "我的钱包", "usingComponents": {} }, "pages/mainAll/member/member": { "navigationBarTitleText": "会员中心", "usingComponents": { "com-article": "/components/article" } }, "pages/mainAll/recharge/recharge": { "navigationBarTitleText": "充值", "usingComponents": {} }, "pages/mainAll/bankCard/bankCard": { "navigationBarTitleText": "银行卡", "usingComponents": {} }, "pages/mainAll/addBankCard/addBankCard": { "navigationBarTitleText": "添加银行卡", "usingComponents": {} }, "pages/mainAll/withdraw/withdraw": { "navigationBarTitleText": "提现", "usingComponents": {} }, "pages/mainAll/memberRecharge/memberRecharge": { "navigationBarTitleText": "会员开通", "usingComponents": { "com-article": "/components/article" } }, "pages/mainAll/withdrawSuccess/withdrawSuccess": { "navigationBarTitleText": "等待审核", "usingComponents": {} }, "pages/mainAll/job/job": { "navigationBarTitleText": "招聘", "usingComponents": {} }, "pages/mainAll/myJob/myJob": { "navigationBarTitleText": "我的求职", "usingComponents": {} }, "pages/mainAll/addBio/addBio": { "navigationBarTitleText": "简历填写", "usingComponents": {} }, "pages/mainAll/jobDetail/jobDetail": { "navigationBarTitleText": "职位描述", "usingComponents": {} }, "pages/scanAll/scan/scan": { "navigationBarTitleText": "自主点餐", "usingComponents": {} }, "pages/scanAll/classify/classify": { "navigationBarTitleText": "点餐", "usingComponents": { "cart-list": "/components/cartList" } }, "pages/scanAll/submitOrder/submitOrder": { "navigationBarTitleText": "提交订单", "usingComponents": {} }, "pages/scanAll/goodsDetail/goodsDetail": { "navigationBarTitleText": "商品详情", "usingComponents": { "cart-list": "/components/cartList", "star": "/components/star" } }, "pages/scanAll/subEvaluate/subEvaluate": { "navigationBarTitleText": "订单评价", "usingComponents": { "star": "/components/star" } }, "pages/scanAll/paySuccess/paySuccess": { "navigationBarTitleText": "支付成功", "usingComponents": {} }, "pages/scanAll/orderList/orderList": { "navigationBarTitleText": "我的订单", "usingComponents": {} }, "pages/scanAll/orderDetail/orderDetail": { "navigationBarTitleText": "订单详情", "usingComponents": {} }, "pages/bookAll/book/book": { "navigationBarTitleText": "选择餐桌", "usingComponents": { "mask": "/components/mask", "uni-calendar": "/components/uni-calendar/uni-calendar" } }, "pages/bookAll/submitOrder/submitOrder": { "navigationBarTitleText": "提交订单", "usingComponents": {} }, "pages/bookAll/paySuccess/paySuccess": { "navigationBarTitleText": "支付成功", "usingComponents": {} }, "pages/bookAll/orderList/orderList": { "navigationBarTitleText": "我的订单", "usingComponents": {} }, "pages/bookAll/takeNumber/takeNumber": { "navigationBarTitleText": "取号点餐", "usingComponents": { "mask": "/components/mask" } }, "pages/bookAll/takeSuccess/takeSuccess": { "navigationBarTitleText": "已出号", "usingComponents": { "mask": "/components/mask" } }, "pages/cookAll/cook/cook": { "navigationBarTitleText": "厨师上门", "usingComponents": { "mask": "/components/mask", "uni-calendar": "/components/uni-calendar/uni-calendar" } }, "pages/cookAll/cookDetail/cookDetail": { "navigationBarTitleText": "套餐详情", "usingComponents": {} }, "pages/cookAll/submitOrder/submitOrder": { "navigationBarTitleText": "提交订单", "usingComponents": {} }, "pages/cookAll/orderList/orderList": { "navigationBarTitleText": "我的订单", "usingComponents": {} }, "pages/cookAll/orderWaiting/orderWaiting": { "navigationBarTitleText": "预约详情", "usingComponents": { "mask": "/components/mask" } }, "pages/videoAll/myVideo/myVideo": { "navigationBarTitleText": "我的美厨", "usingComponents": {} }, "pages/videoAll/myArticle/myArticle": { "navigationBarTitleText": "我的美文", "usingComponents": { "com-article": "/components/article" } }, "pages/videoAll/articleList/articleList": { "navigationBarTitleText": "美文天地", "usingComponents": { "com-article": "/components/article" } }, "pages/videoAll/articleDetail/articleDetail": { "navigationBarTitleText": "美文", "usingComponents": {} }, "pages/videoAll/videoList/videoList": { "usingComponents": { "com-article": "/components/article" } }, "pages/videoAll/videoDetail/videoDetail": { "navigationBarTitleText": "课程介绍", "usingComponents": { "com-article": "/components/article" } }, "pages/videoAll/videoSearch/videoSearch": { "navigationBarTitleText": "课程搜索", "usingComponents": {} }, "pages/videoAll/apply/apply": { "navigationBarTitleText": "创作者申请", "usingComponents": {} }, "pages/videoAll/author/author": { "navigationBarTitleText": "创作者", "usingComponents": { "com-article": "/components/article" } }, "pages/videoAll/auditResult/auditResult": { "navigationBarTitleText": "审核进度", "usingComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "black", "navigationBarTitleText": "点餐", "navigationBarBackgroundColor": "#ffffff", "backgroundColor": "#F8F8F8" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/mainAll/index/index": { "navigationBarTitleText": "首页" }, "pages/mainAll/video/video": { "navigationBarTitleText": "检测" }, "pages/mainAll/my/my": { "navigationBarTitleText": "我的" }, "pages/mainAll/shopSelect/shopSelect": { "navigationBarTitleText": "选择餐厅" }, "pages/mainAll/addressList/addressList": { "navigationBarTitleText": "地址管理" }, "pages/mainAll/addressAdd/addressAdd": { "navigationBarTitleText": "添加地址" }, "pages/mainAll/addressEdit/addressEdit": { "navigationBarTitleText": "地址修改" }, "pages/mainAll/myCommission/myCommission": { "navigationBarTitleText": "佣金" }, "pages/mainAll/myBalance/myBalance": { "navigationBarTitleText": "我的钱包" }, "pages/mainAll/member/member": { "navigationBarTitleText": "会员中心" }, "pages/mainAll/recharge/recharge": { "navigationBarTitleText": "充值" }, "pages/mainAll/bankCard/bankCard": { "navigationBarTitleText": "银行卡" }, "pages/mainAll/addBankCard/addBankCard": { "navigationBarTitleText": "添加银行卡" }, "pages/mainAll/withdraw/withdraw": { "navigationBarTitleText": "提现" }, "pages/mainAll/memberRecharge/memberRecharge": { "navigationBarTitleText": "会员开通" }, "pages/mainAll/withdrawSuccess/withdrawSuccess": { "navigationBarTitleText": "等待审核" }, "pages/mainAll/job/job": { "navigationBarTitleText": "招聘" }, "pages/mainAll/myJob/myJob": { "navigationBarTitleText": "我的求职" }, "pages/mainAll/addBio/addBio": { "navigationBarTitleText": "简历填写" }, "pages/mainAll/jobDetail/jobDetail": { "navigationBarTitleText": "职位描述" }, "pages/scanAll/scan/scan": { "navigationBarTitleText": "自主点餐" }, "pages/scanAll/classify/classify": { "navigationBarTitleText": "点餐" }, "pages/scanAll/submitOrder/submitOrder": { "navigationBarTitleText": "提交订单" }, "pages/scanAll/goodsDetail/goodsDetail": { "navigationBarTitleText": "商品详情" }, "pages/scanAll/subEvaluate/subEvaluate": { "navigationBarTitleText": "订单评价" }, "pages/scanAll/paySuccess/paySuccess": { "navigationBarTitleText": "支付成功" }, "pages/scanAll/orderList/orderList": { "navigationBarTitleText": "我的订单" }, "pages/scanAll/orderDetail/orderDetail": { "navigationBarTitleText": "订单详情" }, "pages/bookAll/book/book": { "navigationBarTitleText": "选择餐桌" }, "pages/bookAll/submitOrder/submitOrder": { "navigationBarTitleText": "提交订单" }, "pages/bookAll/paySuccess/paySuccess": { "navigationBarTitleText": "支付成功" }, "pages/bookAll/orderList/orderList": { "navigationBarTitleText": "我的订单" }, "pages/bookAll/takeNumber/takeNumber": { "navigationBarTitleText": "取号点餐" }, "pages/bookAll/takeSuccess/takeSuccess": { "navigationBarTitleText": "已出号" }, "pages/cookAll/cook/cook": { "navigationBarTitleText": "厨师上门" }, "pages/cookAll/cookDetail/cookDetail": { "navigationBarTitleText": "套餐详情" }, "pages/cookAll/submitOrder/submitOrder": { "navigationBarTitleText": "提交订单" }, "pages/cookAll/orderList/orderList": { "navigationBarTitleText": "我的订单" }, "pages/cookAll/orderWaiting/orderWaiting": { "navigationBarTitleText": "预约详情" }, "pages/videoAll/myVideo/myVideo": { "navigationBarTitleText": "我的美厨" }, "pages/videoAll/myArticle/myArticle": { "navigationBarTitleText": "我的美文" }, "pages/videoAll/articleList/articleList": { "navigationBarTitleText": "美文天地" }, "pages/videoAll/articleDetail/articleDetail": { "navigationBarTitleText": "美文" }, "pages/videoAll/videoList/videoList": {}, "pages/videoAll/videoDetail/videoDetail": { "navigationBarTitleText": "课程介绍" }, "pages/videoAll/videoSearch/videoSearch": { "navigationBarTitleText": "课程搜索" }, "pages/videoAll/apply/apply": { "navigationBarTitleText": "创作者申请" }, "pages/videoAll/author/author": { "navigationBarTitleText": "创作者" }, "pages/videoAll/auditResult/auditResult": { "navigationBarTitleText": "审核进度" } }, "globalStyle": { "navigationBarTextStyle": "black", "navigationBarTitleText": "点餐", "navigationBarBackgroundColor": "#ffffff", "backgroundColor": "#F8F8F8" } };exports.default = _default;
 
 /***/ }),
 
 /***/ 8:
-/*!************************************************************!*\
-  !*** C:/Users/86185/Desktop/凉茶/pages.json?{"type":"stat"} ***!
-  \************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Users/86185/Desktop/liangcha/pages.json?{"type":"stat"} ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
