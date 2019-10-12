@@ -4,7 +4,7 @@ import Vuex from "vuex"
 Vue.use(Vuex)
 
 const state = {
-	authorize: false,      //授权状态
+	authorize: false,      //授权状态111
 	access_token: 'f0fd9769b7f82b0920a9f6e0756caa43',      //token
 	userInfo: {},          //用户信息	
 	storeId: '1',           //店铺ID
